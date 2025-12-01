@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+
+/* Page transition animation for route changes */
+.page {
+  animation: pageFadeIn 2s ease both;
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    
+  }
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+/* Root elements */
+html, body, #root {
+  height: 100%;
+}
+
+/* Allow page scrolling - manage per-page */
+.page {
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+
+
+
+html{
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
